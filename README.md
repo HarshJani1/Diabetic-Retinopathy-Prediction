@@ -8,4 +8,7 @@ This dataset has over 35000 images of retina. The images in the dataset come fro
 We can scale down all images to 256x256.images without retinopathy were only mirrored and images that had retinopathy were mirrored and roatated 90, 120, 180, and 270 degrees.
 After that a new CSV file is created for the augmented dataset which maps each image to a DR level.
 # Result 
-This model predicts the binary classification whether the provided image has diabetic retinopathy or not with accuracy of 82%.
+This model predicts the binary classification whether the provided image has diabetic retinopathy or not with 82.24% training accuracy and 81.22% validation accuracy.
+
+<img width="891" alt="Screenshot 2025-04-23 at 4 32 40 PM" src="https://github.com/user-attachments/assets/4a4b7e85-3e38-4a93-b415-cd3fa54c9de0" />
+
